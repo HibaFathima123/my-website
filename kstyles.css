@@ -1,0 +1,106 @@
+body{
+ background:black;
+
+}
+h1{
+    color: grey;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+h6{
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -20px;
+    letter-spacing:5px ;
+    
+}
+h1:hover{
+    color: red;
+    cursor: pointer;
+}
+.info{
+    color: white;
+    display: grid;
+    grid-template-columns:repeat(6, 1fr) ;
+    margin-top:50px ;
+    margin: 50px auto;
+  width: 65%;   
+
+
+    
+}
+.info h6{
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+.info h6:hover{
+    color: red;
+}
+.candy{
+    color: white;
+    margin-top: -10px;
+    font-size: 50px;
+    letter-spacing: 0.001px;
+}
+.candy:hover{
+    color: white;
+    cursor:unset;
+   
+  
+}
+.myimage{
+   display: block;
+   margin: 0 auto;        
+  width: 1000px; 
+}
+ h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+ p{
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+p a{
+    color:rgb(243, 63, 63);
+}
+p a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.kop{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.kop2{
+    display: block;
+   margin: 0 auto;        
+  width: 500px;
+
+}
+.koki{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+}
+
+.cop{
+    color:white;
+}
+.cop:hover{
+    color:rgb(243, 63, 63);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
